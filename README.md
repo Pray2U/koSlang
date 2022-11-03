@@ -3,7 +3,9 @@
 </div>
 
 
-    "koSlang" is a project for continuous development as a PyPI module that can detect slang in Korean.
+    "koSlang" is a project for continuous development as a 
+    PyPI module that can detect slang in Korean.
+
 
 <div align="center">
   <img src="https://img.shields.io/badge/ Python v3.10.0-3776AB?style=flat&logo=Python&logoColor=ffffff">

@@ -1,9 +1,9 @@
 <div align="center">
- <img width="40%" src="https://user-images.githubusercontent.com/32566767/193080409-97ba8839-ac15-4dd0-bfad-99d1498951cc.png"/>
+ <img width="40%" src="https://user-images.githubusercontent.com/32566767/199652927-29a44fef-9b94-4d7c-84ff-3eb4e53e9655.png"/>
 </div>
 
 
-    "pyKorTofu" is a project for continuous development as a PyPI module that can detect slang in Korean.
+    "koSlang" is a project for continuous development as a PyPI module that can detect slang in Korean.
 
 <div align="center">
   <img src="https://img.shields.io/badge/ Python v3.10.0-3776AB?style=flat&logo=Python&logoColor=ffffff">
@@ -26,7 +26,7 @@
 </div>
 
 ### ✏️ Wiki
-sometimes we will write the story...!
+[*👉 Project Wiki*](https://ashhun.notion.site/pyKorTofu-598b289f1843459bb61298907218493c)
 
 ### 📑 CopyRight
 > Copyright 2022.10. Contributor(ash-hun, chaeha617, go-ring), All of contents cannot be copied without contributor's permission

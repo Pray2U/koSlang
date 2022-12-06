@@ -27,8 +27,6 @@
  </a>
 </div>
 
-### ✏️ Wiki
-[*👉 Project Wiki*](https://ashhun.notion.site/pyKorTofu-598b289f1843459bb61298907218493c)
 
 ### 📑 CopyRight
 > Copyright 2022.10. Contributor(ash-hun, chaeha617, go-ring), All of contents cannot be copied without contributor's permission

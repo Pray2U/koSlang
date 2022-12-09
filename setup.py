@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='koslang',
-    version='0.1',
+    version='1.0',
     description='Can detect slang in Korean.',
     author='koSlang',
     author_email='diadiahun0902@gmail.com',

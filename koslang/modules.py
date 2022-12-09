@@ -1,7 +1,8 @@
 # koSlang/koslang/modules.py
+from data_preprocessing import slang_processing
 from konlpy.tag import Kkma
-from konlpy.tag import Mecab
 from konlpy.tag import Okt
+from eunjeon import Mecab
 
 class koslang():
     def isSlang(self, sentence:str):
@@ -29,5 +30,5 @@ class koslang():
 
 if __name__ == "__main__":
     koslang = koslang()
-    exp = input("Input test sentence")
+    exp = input("Input test sentence : ")
     koslang.isSlang(exp)

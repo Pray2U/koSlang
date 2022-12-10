@@ -1,8 +1,8 @@
 # koSlang/koslang/modules.py
 from data_preprocessing import slang_processing
 from konlpy.tag import Kkma
-from konlpy.tag import Okt
 from eunjeon import Mecab
+from konlpy.tag import Okt
 
 class koslang():
     def isSlang(self, sentence:str):
@@ -26,9 +26,27 @@ class koslang():
 
         ▼ Write your Code ▼
         '''
-        return
+        #kkma = Kkma()
+        # okt = Okt()
+        mecab = Mecab()
+
+        slang_df = slang_processing.slang_TxtToDf('./data_preprocessing/slang_text.txt')
+
+        #mo = kkma.morphs(sentence)
+        #phr = okt.phrases(sentence)
+        mo = mecab.morphs(sentence) #konlpy 환경설정 오류로 인해 eunjeon 패키지 이용 환경설정 이후 변경 예정
+        noun = mecab.nouns(sentence)
+        phr = sentence
+
+        for slang in slang_df.index:
+            if slang in mo or slang in noun or slang in phr:
+                return True
+
+        return False
+
 
 if __name__ == "__main__":
     koslang = koslang()
-    exp = input("Input test sentence : ")
+    exp = input("Input test sentence")
     koslang.isSlang(exp)
+

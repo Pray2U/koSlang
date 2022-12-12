@@ -26,17 +26,15 @@ class koslang():
 
         ▼ Write your Code ▼
         '''
-        #kkma = Kkma()
-        # okt = Okt()
+        kkma = Kkma()
+        okt = Okt()
         mecab = Mecab()
 
         slang_df = slang_processing.slang_TxtToDf('./data_preprocessing/slang_text.txt')
 
-        #mo = kkma.morphs(sentence)
-        #phr = okt.phrases(sentence)
-        mo = mecab.morphs(sentence) #konlpy 환경설정 오류로 인해 eunjeon 패키지 이용 환경설정 이후 변경 예정
+        mo = kkma.morphs(sentence)
+        phr = okt.phrases(sentence)
         noun = mecab.nouns(sentence)
-        phr = sentence
 
         for slang in slang_df.index:
             if slang in mo or slang in noun or slang in phr:
@@ -48,5 +46,6 @@ class koslang():
 if __name__ == "__main__":
     koslang = koslang()
     exp = input("Input test sentence")
-    koslang.isSlang(exp)
+    print(koslang.isSlang(exp))
+
 

@@ -2,4 +2,5 @@
 
 include README.md
 include packagelist.txt
-include koslang/
+include koslang/*.txt
+include koslang/data.csv

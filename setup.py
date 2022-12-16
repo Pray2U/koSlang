@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='koslang',#module 이름
-    version='1.0.6',
+    version='1.0.7',
     description='Can detect slang in Korean.',
     author='koSlang',
     author_email='diadiahun0902@gmail.com',

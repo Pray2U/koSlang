@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='koslang',#module 이름
-    version='1.0.3',
+    version='1.0.5',
     description='Can detect slang in Korean.',
     author='koSlang',
     author_email='diadiahun0902@gmail.com',
@@ -12,5 +12,6 @@ setup(
     license='MIT',
     py_modules=['koslang'], #업로드할 module
     install_requires=["eunjeon","pandas"], #module 필요한 다른 module
-    packages=['koslang'] #업로드할 module이 있는 폴더
+    packages=['koslang'], #업로드할 module이 있는 폴더
+    include_package_data=True,
 )

@@ -18,6 +18,7 @@ def isSlang(sentence:str):
     3. Check the test cases divided according to each case belong to the DataFrame one by one.
     4. If at least one case is included, we return "True" value, otherwise return "False" value.
     '''
+
     dataset = pd.read_csv("./dataset.txt",
                           dtype={''        : str, 'prefix': int, 'suffix': int, 'interjection': int, 'fortis': int,
                                  'idiom'   : int, 'abbreviation': int, 'long-phonetic': int, 'numNkor': int,
@@ -35,3 +36,6 @@ def isSlang(sentence:str):
         if slang in noun:
             return True
     return False
+
+if __name__=="__main__":
+     print(isSlang("이게 왜 안되는데 씨발아"))

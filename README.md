@@ -98,5 +98,5 @@ koslang.analysis(your_text)
 
 </details>
 
-### 📑 CopyRight
-> Copyright 2022.10. Contributor(ash-hun, chaeha617, go-ring), All of contents cannot be copied without contributor's permission
+
+    Copyright 2022.11. Contributor(ash-hun, chaeha617, go-ring), All of contents cannot be copied without contributor's permission
